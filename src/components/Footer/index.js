@@ -55,10 +55,10 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
-              liv
+              bank
             </SocialLogo>
             <WebsiteRights>
-              liv © {new Date().getFullYear()} All rights reserved
+              {new Date().getFullYear()} © All rights reserved
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="Facebook">
