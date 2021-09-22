@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ServicesContainer = styled.div`
-  height: 800px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,7 +30,7 @@ export const ServicesWrapper = styled.div`
     grid-template-columns: 1fr 1fr;
   }
 
-  @media screen and (max-width: 768) {
+  @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     padding: 0 20px;
   }

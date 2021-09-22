@@ -20,7 +20,7 @@ const HeroSection = () => {
   };
 
   return (
-    <HeroContainer>
+    <HeroContainer id="home">
       <VideoBG autoPlay loop muted src={Video} type="video/mp4" />
       <HeroContent>
         <HeroH1>Virtual Banking Made Easy</HeroH1>
@@ -35,6 +35,11 @@ const HeroSection = () => {
             onMouseLeave={onHover}
             primary={true}
             dark={true}
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
           >
             Get Started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
