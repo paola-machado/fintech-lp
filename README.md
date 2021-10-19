@@ -15,7 +15,7 @@ Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
 $ git clone https://github.com/paola-machado/fintech-lp
-$ cd letmeask
+$ cd fintech-lp
 ```
 
 Para iniciá-lo, siga os passos abaixo:
